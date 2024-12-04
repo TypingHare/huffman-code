@@ -1,0 +1,2 @@
+rootProject.name = "bhcc-huffman"
+
