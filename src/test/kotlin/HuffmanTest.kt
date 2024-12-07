@@ -20,6 +20,8 @@ class HuffmanTest {
         val decompressedData =
             HuffmanExtractor(huffmanTree).extract(compressedData)
 
+        huffmanTree.printByteTable()
+
         assertArrayEquals(inputBytes, decompressedData)
     }
 
